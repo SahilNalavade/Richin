@@ -1,0 +1,198 @@
+@import "variables";
+
+.container {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  
+  .homesearchinput{
+    padding:5px;
+  }
+}
+
+.input {
+  padding: 5px;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  display: block;
+  width: 100%;
+  border-radius: 0;
+
+}
+
+
+.width{
+  max-width: 600px;
+  margin: 0 auto;
+  width: 92%;
+}
+
+.header{
+  background:#111 ;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  // text-transform: uppercase;
+  text-align: center;
+  color: white;
+   
+  letter-spacing: 2px;
+}
+
+ .a{
+  color: white;
+  text-decoration: none; 
+}
+
+.headersearch{
+  padding: 40px 0;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+  h2{
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+
+ input{
+  border:1px solid #111;
+  padding: 0 24px;
+  line-height: 54px;
+  border-radius: 25px;
+
+ }
+}
+
+.homecryptos{
+  h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  
+}
+
+.image{
+  
+    max-width: 100%;
+    width: 50px;
+}
+
+.homecryptoslist{
+  border-top: 1px solid #ddd;
+}
+
+
+.homecrypto {
+  & > a {
+    display: flex;
+    justify-content: space-between; /* changed to space-between */
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
+  }
+
+  img {
+    margin-right: 10px; /* added margin-right to separate image from text */
+  }
+
+  span {
+    display: block;
+  }
+
+  .homecryptosiprices {
+    margin-left: auto; /* push the price to the right */
+  }
+
+  
+}
+
+.darkBackground {
+  background: #222;
+}
+
+
+.homecryptoimage{
+  width: 50px;
+  
+ 
+  
+}
+
+.homecryptosname{
+  flex:1;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.homecryptobtc{
+  color: #ebebeb;
+  font-size: 16px;
+
+  img{
+    width: 16px;
+    display: inline-block;
+    margin:-3px 5px 0 0;
+    vertical-align: middle;
+  }
+}
+
+.homecryptousd{
+  color: #ebebeb;
+  font-size: 12px;
+}
+
+
+.showheader{
+  padding: 40px 0;
+  text-align: center;
+
+  img{
+    width: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  h2{
+    font-size: 32px;
+    margin-top: 10px;
+  }
+}
+
+.showgraph{
+  height: 200px;
+  width: 100%;
+}
+
+.showdetails{
+  padding-top: 40px;
+  padding-bottom: 60px;
+
+  h2{
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.showdetailsrow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  color: #e7e7e7;
+
+  h3{
+    font-size: 16px;
+    color: #ffffff;
+  }
+}
